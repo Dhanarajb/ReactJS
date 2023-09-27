@@ -1,4 +1,5 @@
-Transitioning from class components to functional components with hooks like useState and useEffect is a fundamental step in modern React development. These hooks allow you to manage state and handle side effects in a more concise and readable way. Let's explore how to use useState and useEffect:
+Transitioning from class components to functional components with hooks like useState and useEffect is a fundamental step in modern React development. 
+  These hooks allow you to manage state and handle side effects in a more concise and readable way. Let's explore how to use useState and useEffect:
 
 1. useState Hook:
 useState allows you to add state to functional components. It returns an array with two elements: the current state value and a function to update it.
@@ -76,7 +77,8 @@ Copy code
 const [state, setState] = useState(initialValue);
 3. Explain the difference between props and state in React.
 
-Answer: Props are used for passing data from a parent component to a child component, and they are immutable. State is used for managing component-specific data that can change over time and is mutable using setState.
+Answer: Props are used for passing data from a parent component to a child component, and they are immutable. State is used for managing 
+  component-specific data that can change over time and is mutable using setState.
 4. Can you use the useState hook in a class component?
 
 Answer: No, the useState hook is only available in functional components. In class components, you use this.state and this.setState.
@@ -93,7 +95,8 @@ setCount(count + 1);
 Answer: The useEffect hook is used for managing side effects in functional components, such as data fetching, DOM manipulation, or subscribing to events.
 7. What is the dependency array in the useEffect hook, and why is it used?
 
-Answer: The dependency array is an optional second argument to useEffect. It specifies dependencies that trigger the effect when they change. If the array is empty, the effect runs only once, like componentDidMount in class components.
+Answer: The dependency array is an optional second argument to useEffect. It specifies dependencies that trigger the effect when they change. 
+  If the array is empty, the effect runs only once, like componentDidMount in class components.
 8. How can you conditionally run an effect in the useEffect hook?
 
 Answer: You can use conditionals inside the useEffect callback to conditionally run code based on the current state or props.
@@ -102,13 +105,15 @@ Answer: You can use conditionals inside the useEffect callback to conditionally 
 Answer: You can return a cleanup function from the useEffect callback to clean up resources, unsubscribe from subscriptions, or remove event listeners.
 10. What is the difference between the componentDidMount and useEffect hooks for running side effects?
 
-Answer: componentDidMount is a lifecycle method in class components, while useEffect is a hook in functional components. They both serve the purpose of running side effects after the initial render.
+Answer: componentDidMount is a lifecycle method in class components, while useEffect is a hook in functional components. They both serve the purpose 
+  of running side effects after the initial render.
 11. Can you have multiple useEffect hooks in a single functional component?
 
 Answer: Yes, you can have multiple useEffect hooks in a single component, and they are executed in the order they are defined.
 12. How do you simulate componentDidUpdate with the useEffect hook?
 
-Answer: You can use the useEffect hook with a dependency array that includes the state or props you want to watch for changes. When those dependencies change, the effect will run, simulating componentDidUpdate.
+Answer: You can use the useEffect hook with a dependency array that includes the state or props you want to watch for changes. When those dependencies change, 
+  the effect will run, simulating componentDidUpdate.
 13. What are the limitations of using hooks like useState and useEffect in React?
 
 Answer: Hooks cannot be used in class components, and some lifecycle-specific behavior may not be replicated exactly using hooks alone.
@@ -133,20 +138,26 @@ useEffect(() => {
 }, []);
 16. How do you avoid infinite loops when using the useEffect hook?
 
-Answer: You can specify dependencies in the dependency array to control when the effect should run. Make sure to include all dependencies to prevent unnecessary re-renders.
+Answer: You can specify dependencies in the dependency array to control when the effect should run. Make sure to include all dependencies to 
+  prevent unnecessary re-renders.
 17. What is the purpose of the cleanup function returned by the useEffect hook?
 
-Answer: The cleanup function is used to clean up resources, unsubscribe from subscriptions, or remove event listeners when the component unmounts or when the effect's dependencies change.
+Answer: The cleanup function is used to clean up resources, unsubscribe from subscriptions, or remove event listeners when the component unmounts 
+    or when the effect's dependencies change.
 18. How can you pass props to a child component and manage their changes using hooks?
 
-Answer: You can pass props to a child component as usual, and within the child component, you can use the useEffect hook with the prop as a dependency to respond to changes in the prop.
+Answer: You can pass props to a child component as usual, and within the child component, you can use the useEffect hook with the prop as a 
+  dependency to respond to changes in the prop.
 19. Explain the concept of "lifting state up" in React and how hooks can facilitate it.
 
-Answer: "Lifting state up" means moving the state from child components to a common ancestor (usually a parent or higher-level component). Hooks like useState and useEffect make it easier to manage and share state between components.
+Answer: "Lifting state up" means moving the state from child components to a common ancestor (usually a parent or higher-level component). 
+    Hooks like useState and useEffect make it easier to manage and share state between components.
 20. Can you use hooks in a custom React hook?
 
-Answer: Yes, you can use hooks like useState and useEffect within custom hooks. Custom hooks allow you to encapsulate and share stateful logic across multiple components.
-These questions and answers cover a range of topics related to the useState and useEffect hooks in React. Be prepared to discuss these concepts further, provide code examples, and adapt your answers based on the specific requirements of the interview questions.
+Answer: Yes, you can use hooks like useState and useEffect within custom hooks. Custom hooks allow you to encapsulate and share stateful 
+  logic across multiple components.
+These questions and answers cover a range of topics related to the useState and useEffect hooks in React. Be prepared to discuss these 
+    concepts further, provide code examples, and adapt your answers based on the specific requirements of the interview questions.
 
 
 
