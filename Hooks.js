@@ -6,8 +6,7 @@ useState allows you to add state to functional components. It returns an array w
 
 Here's an example:
 
-jsx
-Copy code
+
 import React, { useState } from 'react';
 
 function Counter() {
@@ -32,8 +31,7 @@ contains your side effect code and an optional dependency array that specifies w
 
 Here's an example of fetching data from an API:
 
-jsx
-Copy code
+
 import React, { useState, useEffect } from 'react';
 
 function DataFetching() {
@@ -72,8 +70,7 @@ Answer: The useState hook is used to add state to functional components. It retu
 2. How do you declare a state variable using the useState hook?
 
 Answer: You can declare a state variable like this:
-jsx
-Copy code
+
 const [state, setState] = useState(initialValue);
 3. Explain the difference between props and state in React.
 
@@ -85,8 +82,7 @@ Answer: No, the useState hook is only available in functional components. In cla
 5. How would you update the state with the useState hook?
 
 Answer: You update the state by calling the state update function returned by useState. For example:
-jsx
-Copy code
+
 const [count, setCount] = useState(0);
 // To update count:
 setCount(count + 1);
@@ -123,8 +119,7 @@ Answer: Yes, you can use hooks conditionally, but they must be used at the top l
 15. How would you handle an API call using the useState and useEffect hooks?
 
 Answer: You can use useState to manage the fetched data and loading state and use useEffect to perform the API call. Here's an example:
-jsx
-Copy code
+
 const [data, setData] = useState([]);
 const [loading, setLoading] = useState(true);
 
