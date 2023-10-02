@@ -59,11 +59,14 @@ ReactDOM.render(
 );
 Step 3: Accessing and Using Props
 
-In the ChildComponent, we access the message prop by using props.message. You can then use this data in the child component's rendering logic. In this example, we simply display the message as a paragraph.
+In the ChildComponent, we access the message prop by using props.message. You can then use this data in the child component's rendering logic. 
+  In this example, we simply display the message as a paragraph.
 
 When you run your React application, you should see "Hello, World!" displayed in the child component, which is being passed from the parent component through props.
 
-This demonstrates the basic concept of passing data from a parent component to a child component using props. You can pass various types of data, including strings, numbers, functions, or even objects, through props, depending on your application's needs. Props allow you to create reusable and modular components in React by making them configurable with external data.
+This demonstrates the basic concept of passing data from a parent component to a child component using props. You can pass various types of data, 
+  including strings, numbers, functions, or even objects, through props, depending on your application's needs. Props allow you to create reusable 
+  and modular components in React by making them configurable with external data.
 
 
 
@@ -71,7 +74,8 @@ This demonstrates the basic concept of passing data from a parent component to a
 User
 Props Learn how to pass data from parent components to child components using props. Practice creating components that accept and use props. deep and dive
 ChatGPT
-Passing data from parent components to child components using props in React is a fundamental concept. You can also pass data deeply nested within a component hierarchy. Let's explore this by creating components at different levels of nesting and passing data through props.
+Passing data from parent components to child components using props in React is a fundamental concept. You can also pass data deeply nested within a 
+  component hierarchy. Let's explore this by creating components at different levels of nesting and passing data through props.
 
 Step 1: Create a Grandparent Component
 
@@ -149,7 +153,8 @@ ReactDOM.render(
 );
 Step 5: Accessing and Using Props
 
-In this setup, data is passed from the GrandparentComponent to the ParentComponent as dataFromGrandparent, and then further from ParentComponent to ChildComponent as dataFromParent. Each component displays the received data in its rendering logic.
+In this setup, data is passed from the GrandparentComponent to the ParentComponent as dataFromGrandparent, and then further from ParentComponent 
+  to ChildComponent as dataFromParent. Each component displays the received data in its rendering logic.
 
 When you run your React application, you will see the data passed through the props displayed at each level of the component hierarchy.
 
