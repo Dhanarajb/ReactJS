@@ -59,3 +59,7 @@ This makes code simpler, easier to understand, and takes care of the technical d
 it creates a virtual copy of the original DOM. It’s a one-way data binding hence manipulating the virtual DOM is quick rather than updating
 original DOM because nothing gets drawn onscreen.
 ![](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*qs4fwxMT-QIvfujHPzNuXw.png)
+#### Component Based
+>React is component-based, meaning it divides the user interface into small, reusable parts called components. Each component has its job,
+making it easier to manage and understand the code. These components can be used repeatedly, making the development process more organized
+and efficient. This approach simplifies building complex interfaces by breaking them into manageable chunks.
