@@ -45,6 +45,8 @@ React.createElement('h1', null, "Welcome to React")
 }
 ```
 #### Single-Way data flow
-> In React, a set of immutable values are passed to the components renderer as properties in its HTML tags. The component cannot 
-directly modify any properties but can pass a call back function with the help of which we can do modifications.
+> In React, the Single-Way Data Flow concept means that data flows in one direction, typically from parent components to child components.
+Parent components pass data and properties down to their child components through props, and child components can't directly modify these props.
+Instead, child components can communicate changes back to their parent components by invoking callback functions passed as props.
+This one-way flow of data ensures predictable and maintainable data handling in React applications.
 ![](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Vl-qdsXdv0wmf_NqgexA7A.jpeg)
