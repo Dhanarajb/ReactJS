@@ -50,3 +50,12 @@ Parent components pass data and properties down to their child components throug
 Instead, child components can communicate changes back to their parent components by invoking callback functions passed as props.
 This one-way flow of data ensures predictable and maintainable data handling in React applications.
 ![](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Vl-qdsXdv0wmf_NqgexA7A.jpeg)
+#### Declerative
+>React is declarative because it lets developers say what they want the UI to look like based on data, and React figures out how to make it happen.
+This makes code simpler, easier to understand, and takes care of the technical details for you, making development more efficient.
+#### VirtualDom
+>Virtual DOM:
+> In React, for every DOM object, there is a corresponding “virtual DOM object.” A virtual DOM object is a representation of a DOM object,
+it creates a virtual copy of the original DOM. It’s a one-way data binding hence manipulating the virtual DOM is quick rather than updating
+original DOM because nothing gets drawn onscreen.
+![](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*qs4fwxMT-QIvfujHPzNuXw.png)
