@@ -1,4 +1,4 @@
-![image](https://github.com/Dhanarajb/ReactJS/assets/88299676/6957ac57-8cc4-4d9f-b525-74d9d4c0ee61)### What is React?
+### What is React?
 > React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. 
 It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components. React allows
 developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast,
@@ -47,4 +47,4 @@ React.createElement('h1', null, "Welcome to React")
 #### Single-Way data flow
 In React, a set of immutable values are passed to the components renderer as properties in its HTML tags. The component cannot 
 directly modify any properties but can pass a call back function with the help of which we can do modifications.
-[<img src="[image.png](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Vl-qdsXdv0wmf_NqgexA7A.jpeg)" width="250"/>](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Vl-qdsXdv0wmf_NqgexA7A.jpeg)
+![](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Vl-qdsXdv0wmf_NqgexA7A.jpeg)
