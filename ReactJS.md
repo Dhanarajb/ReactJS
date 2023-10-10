@@ -45,6 +45,6 @@ React.createElement('h1', null, "Welcome to React")
 }
 ```
 #### Single-Way data flow
-In React, a set of immutable values are passed to the components renderer as properties in its HTML tags. The component cannot 
+> In React, a set of immutable values are passed to the components renderer as properties in its HTML tags. The component cannot 
 directly modify any properties but can pass a call back function with the help of which we can do modifications.
 ![](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Vl-qdsXdv0wmf_NqgexA7A.jpeg)
