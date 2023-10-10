@@ -22,3 +22,29 @@ return <h1>Welcome to React</h1>;
 }
 }
 ```
+---
+### Why use React?
+> Simplicity
+> Easy to learn
+> Native Approach
+> Data binding
+> Performance
+> Testability
+---
+### Features of ReactJS
+#### JSX
+JavaScript XML or JSX is an extension to the JavaScript language syntax. JSX is a simple JavaScript that allows HTML quoting and 
+uses these HTML tag syntax to render subcomponents. We can also write in pure old JavaScript.
+```
+const Welcome = () =>{
+return React.createElement(
+'div',
+null,
+React.createElement('h1', null, "Welcome to React")
+)
+}
+```
+#### Single-Way data flow
+In React, a set of immutable values are passed to the components renderer as properties in its HTML tags. The component cannot 
+directly modify any properties but can pass a call back function with the help of which we can do modifications.
+![alt text]([http://url/to/img.png](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Vl-qdsXdv0wmf_NqgexA7A.jpeg)https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Vl-qdsXdv0wmf_NqgexA7A.jpeg)
