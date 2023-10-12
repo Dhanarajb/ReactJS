@@ -55,7 +55,7 @@ This one-way flow of data ensures predictable and maintainable data handling in 
 >React is declarative because it lets developers say what they want the UI to look like based on data, and React figures out how to make it happen.
 This makes code simpler, easier to understand, and takes care of the technical details for you, making development more efficient.
 
-The declarative nature of React means that developers describe what they want the UI to look like based on data, and React takes care of the technical details to make it happen. Here's a simple example:
+> The declarative nature of React means that developers describe what they want the UI to look like based on data, and React takes care of the technical details to make it happen. Here's a simple example:
 
 ```
 import React, { useState } from 'react';
