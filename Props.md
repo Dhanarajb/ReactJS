@@ -32,3 +32,48 @@ function ChildComponent(props) {
 
 export default ChildComponent;
 ```
+#### Default Props
+> Default props in React provide backup values for component properties if you forget to give them values when using the component.
+
+```
+import React from 'react';
+
+function MyComponent(props) {
+  return (
+    <div>
+      <p>Name: {props.name}</p>
+      <p>Age: {props.age}</p>
+    </div>
+  );
+}
+
+MyComponent.defaultProps = {
+  name: 'John Doe',
+  age: 30,
+};
+
+export default MyComponent;
+```
+#### PropType
+> PropTypes in React allow you to specify the types and requirements of component props for better validation and documentation.
+
+```
+import React from 'react';
+import PropTypes from 'prop-types';
+
+function MyComponent(props) {
+  return (
+    <div>
+      <p>Name: {props.name}</p>
+      <p>Age: {props.age}</p>
+    </div>
+  );
+}
+
+MyComponent.propTypes = {
+  name: PropTypes.string.isRequired, // name prop is required and must be a string
+  age: PropTypes.number, // age prop is optional and must be a number if provided
+};
+
+export default MyComponent;
+```
