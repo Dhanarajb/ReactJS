@@ -2,12 +2,16 @@
 
 #### Components
 > Functional Components
+
 >  Class Components
+
 >  JSX (JavaScript XML) Syntax
 
 #### Props (Properties)
 > Passing Props
+
 > Default Props
+
 > Prop Types
 
 #### State
