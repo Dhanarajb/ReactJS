@@ -30,4 +30,5 @@ class Counter extends Component {
 
 #### JSX
 > JSX is stands for javascript XML. It allows us to directly write HTML in React, JSX can easily convert HTML tags to react element.
+
 ![image](https://github.com/Dhanarajb/ReactJS/assets/88299676/31cff1ea-7c29-42da-b8a0-99e109b7148a)
