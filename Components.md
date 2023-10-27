@@ -27,6 +27,7 @@ class Counter extends Component {
   }
 }
 ```
+> Class-based components have a more extensive lifecycle, which allows you to manage state changes and perform actions at specific points in the component's lif
 
 #### JSX
 > JSX is stands for javascript XML. It allows us to directly write HTML in React, JSX can easily convert HTML tags to react element.
