@@ -1,63 +1,130 @@
-# ReactJS
+### ReactJS is only this much👇😊
 
-Step 1: JavaScript Fundamentals
-Before diving into React, ensure you have a solid understanding of JavaScript, including variables, data types, functions, scope, and basic DOM manipulation. If you're not already familiar with JavaScript, start with that as your first step.
+#### Components
+> Functional Components
+>  Class Components
+>  JSX (JavaScript XML) Syntax
 
-Step 2: HTML and CSS
-Make sure you are comfortable with HTML and CSS, as they are crucial for creating the structure and styling of your React components.
+#### Props (Properties)
+> Passing Props
+> Default Props
+> Prop Types
 
-Step 3: Setup and Environment
-Set up your development environment. You can use tools like Create React App (CRA) or configure Webpack and Babel manually. Follow the official React documentation or online tutorials to get started.
+#### State
+> useState Hook
+> Class Component State
+> Immutable State
 
-Step 4: Hello World in React
-Start with a simple "Hello World" example in React. Create a basic React component, render it to the DOM, and see it in your browser. This will introduce you to the basic syntax and structure of React.
+#### Lifecycle Methods (Class Components)
+> componentDidMount
+> componentDidUpdate
+> componentWillUnmount
 
-Step 5: JSX
-Learn about JSX, which allows you to write HTML-like code in your JavaScript files. Understand how JSX is transpiled into JavaScript using Babel.
+#### Hooks (Functional Components)
+> useState
+> useEffect
+> useContext
+> useReducer
+> useCallback
+> useMemo
+> useRef
+> useImperativeHandle
+> useLayoutEffect
 
-Step 6: Components
-Dive deeper into React components. Create functional components and class-based components. Understand the difference between them and how to use them.
+#### Event Handling
+> Handling Events in Functional Components
+> Handling Events in Class Components
 
-Step 7: Props
-Learn how to pass data from parent components to child components using props. Practice creating components that accept and use props.
+#### Conditional Rendering
+> if Statements
+> Ternary Operators
+> Logical && Operator
 
-Step 8: State
-Explore component state. Create components that manage and update their internal state. Understand the difference between props and state.
+#### Lists and Keys
+> Rendering Lists
+> Keys in React Lists
 
-Step 9: Component Lifecycle
-If you are using class-based components, study the component lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount. Understand when and how to use them.
+#### Component Composition
+> Reusing Components
+> Children Props
+> Composition vs Inheritance
 
-Step 10: Hooks
-Transition to functional components and learn about hooks. Start with the useState and useEffect hooks. These are essential for managing state and side effects in functional components.
+#### Higher-Order Components (HOC)
+> Creating HOCs
+> Using HOCs for Reusability
 
-Step 11: Handling Events
-Learn how to handle user events (e.g., clicks, form submissions) in React components using event handlers like onClick and onChange.
+#### Render Props
+> Using Render Props Pattern
 
-Step 12: Conditional Rendering
-Practice conditional rendering techniques to show or hide elements based on certain conditions or data.
+#### React Router
+> <BrowserRouter>
+> <Route> 
+> <Link>
+> <Switch>
+> Route Parameters
 
-Step 13: Lists and Keys
-Learn how to render lists of data efficiently using map and the importance of using unique keys for each item in the list.
+#### Navigation
+> useHistory Hook
+> useLocation Hook
 
-Step 14: Forms and Controlled Components
-Explore how to create forms in React and manage form inputs as controlled components.
+#### State Management
+Context API
+> Creating Context
+> useContext Hook
 
-Step 15: Component Composition
-Master the art of composing components. Create more complex UIs by nesting and combining smaller components.
+#### Redux
+> Actions
+> Reducers
+> Store
+> connect Function (React-Redux)
 
-Step 16: React Router
-Integrate React Router to handle routing in your single-page applications. Learn how to define routes and navigate between different views.
+#### Forms
+> Handling Form Data
+> Controlled Components
+> Uncontrolled Components
 
-Step 17: Context API (Optional)
-If needed, understand how to use the Context API for managing global state and sharing data between components without prop drilling.
+#### Side Effects
+> useEffect for Data Fetching
+> useEffect Cleanup
 
-Step 18: Error Handling
-Learn about error boundaries in React to gracefully handle errors and prevent them from crashing your entire application.
+#### AJAX Requests
+> Fetch API
+> Axios Library
 
-Step 19: Testing (Optional)
-Explore testing React components using libraries like Jest and React Testing Library. Write unit tests and integration tests for your components.
+#### Error Handling
+.Error Boundaries
+> componentDidCatch (Class Components)
+> ErrorBoundary Component (Functional
+Components)
 
-Step 20: Advanced Topics (Optional)
-Dive into more advanced topics like Redux for state management, server-side rendering with Next.js, code splitting, and performance optimization.
+#### Testing
+> Jest Testing Framework
+> React Testing Library
 
-1. What is ReactJS?🛖
+#### Best Practices
+> Code Splitting
+> PureComponent and React.memo
+> Avoiding Reconciliation
+> Keys for Dynamic Lists
+
+#### Optimization
+> Memoization
+> Profiling and Performance Monitoring
+
+#### Build and Deployment
+> Create React App (CRA)
+> Production Builds
+> Deployment Strategies
+
+#### Frameworks and Libraries
+.Styling Libraries
+> Styled-components
+> CSS Modules
+
+#### State Management Libraries
+> Redux
+> MobX
+
+#### Routing Libraries
+> React Router
+> Reach Router
