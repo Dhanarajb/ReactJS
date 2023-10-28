@@ -23,18 +23,28 @@
 
 #### Lifecycle Methods (Class Components)
 > componentDidMount
+
 > componentDidUpdate
+
 > componentWillUnmount
 
 #### Hooks (Functional Components)
 > useState
-> useEffect
+
+> useEffec
+
 > useContext
+
 > useReducer
+
 > useCallback
+
 > useMemo
+
 > useRef
+
 > useImperativeHandle
+
 > useLayoutEffect
 
 #### Event Handling
