@@ -1,6 +1,7 @@
 #### State
 > State is holds the information about the component.
 
+##### functional
 ```
 import React, { useState } from 'react';
 
@@ -16,6 +17,7 @@ function Counter() {
   );
 }
 ```
+##### Class
 ```
 import React, { Component } from 'react';
 
