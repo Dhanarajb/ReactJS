@@ -15,3 +15,14 @@
   - Use it for applications that have a complex data model or require time travel debugging.
   - Use it for applications that may grow in complexity over time.
 ---
+### Optimizing Rerenders: 
+##### 2. In a project, you notice some components are re-rendering unnecessarily. How would you identify the cause and optimize these components?
+> **Identify the cause:**
+  - Profile re-renders: Use React Developer Tools profiler to identify components that re-render frequently.
+  - Profiler → Identify re-rendering components
+
+> Optimize re-renders:
+  - Memoize computations: Use useMemo hook to prevent unnecessary re-computations.
+  - Leverage PureComponent/React.memo: Use PureComponent or React.memo to check if re-render is needed.
+  - Memoization, PureComponent/React.memo → Optimize re-renders
+---
