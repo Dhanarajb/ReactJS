@@ -50,3 +50,31 @@
   - In our mall analogy, code splitting would divide the e-commerce app into product catalog, shopping cart, and checkout sections. Dynamic imports would ensure that only the components needed for each section are loaded, like product listings for the catalog or payment options for checkout.
   - By dividing the code and loading only what's needed, you make your e-commerce app faster and more responsive, giving shoppers a smoother and more enjoyable experience.
 ---
+```
+External API Integration: You need to integrate a third-party REST API into your application. Explain the steps you'd take to fetch and display data from this API.
+
+Forms and Validation: You have a form with various input fields. How would you handle form validation and submission in a way that provides a good user experience?
+
+Redux Middleware: Describe a scenario where you would use middleware in Redux. Provide an example of creating custom middleware and explain its purpose.
+
+Component Reusability: Provide a scenario where you've reused components across different projects. How would you ensure their reusability and maintainability?
+
+React Router: How would you handle nested routes and route parameters using React Router? Give an example scenario where you'd need these features.
+
+Authentication and Routing: Explain how you'd protect specific routes in your application from unauthorized access after a user logs in.
+
+Performance Profiling: You notice a performance issue in your React app. What tools and techniques would you use to identify and fix the problem?
+
+Responsive Design: You're building a responsive web application. Describe how you'd approach making the user interface responsive for various screen sizes and devices.
+
+Cross-Origin Requests: Describe a scenario where you need to handle cross-origin requests in your React application. How would you deal with CORS and security concerns?
+
+PWA Implementation: Discuss the steps and features you would add to turn a React app into a Progressive Web App (PWA). Provide a scenario where PWA functionality is beneficial.
+
+Testing Strategy: Explain your approach to testing a React application, including unit tests, integration tests, and end-to-end tests. Provide a scenario where each type of test is useful.
+
+Component Lifecycle Methods: Explain the purpose of various component lifecycle methods in class components and how you replicate their behavior in functional components with hooks.
+
+API Versioning: You're consuming a versioned API in your application. Describe how you would handle changes and updates to the API version over time without disrupting the application.
+
+```
