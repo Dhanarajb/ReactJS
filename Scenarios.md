@@ -26,3 +26,17 @@
   - Leverage PureComponent/React.memo: Use PureComponent or React.memo to check if re-render is needed.
   - Memoization, PureComponent/React.memo → Optimize re-renders
 ---
+### Error Boundary
+##### 3. Scenario: Complex e-commerce applications with many nested components, where errors can crash the entire application and disrupt the user experience. (Error Scenario)
+
+**Benefits:**
+  - Graceful error handling: Error boundaries prevent application crashes and display fallback UIs. (Handle error gracefully)
+  - Improved user experience: Users receive meaningful messages instead of confusing error messages. (Better user experience)
+  - Error isolation: Errors are contained within boundaries, preventing them from affecting other parts of the application. (Isolate errors)
+  - Debugging and logging: Error boundaries allow for logging and error analysis to identify and fix root causes. (Debugging and logging)
+**Setup:**
+  - Create an error boundary component to catch errors from child components. (Create error boundary component)
+  - Implement lifecycle methods (getDerivedStateFromError() or componentDidCatch()) to receive error objects. (Implement lifecycle methods)
+  - Render fallback UI within the error boundary component to inform users of errors. (Render fallback UI)
+  - Wrap components that might throw errors within the error boundary component. (Wrap error-prone components) (Set up error boundaries)
+---
