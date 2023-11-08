@@ -42,3 +42,11 @@
   - Render fallback UI within the error boundary component to inform users of errors. (Render fallback UI)
   - Wrap components that might throw errors within the error boundary component. (Wrap error-prone components) (Set up error boundaries)
 ---
+### Code Splitting: 
+> Explain the concept of code splitting and dynamic imports in React. Provide a scenario where you would use these techniques to improve your application's performance.
+  - Imagine a large e-commerce application like a virtual shopping mall. Code splitting is like dividing the mall into different sections, like clothing, electronics,and food, instead of having one massive store. This way, shoppers only visit the sections they need, making the experience smoother and faster.
+  - Dynamic imports are like asking a friend to bring something specific when they visit. Instead of carrying everything at once, you only get the items you need when you need them.
+  - In React, dynamic imports allow you to load specific JavaScript components only when they are needed, reducing the initial load time and improving performance.
+  - In our mall analogy, code splitting would divide the e-commerce app into product catalog, shopping cart, and checkout sections. Dynamic imports would ensure that only the components needed for each section are loaded, like product listings for the catalog or payment options for checkout.
+  - By dividing the code and loading only what's needed, you make your e-commerce app faster and more responsive, giving shoppers a smoother and more enjoyable experience.
+---
