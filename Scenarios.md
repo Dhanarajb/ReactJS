@@ -91,25 +91,27 @@
 ### Form and validation
 
 ##### Making forms user-friendly
-Imagine filling out a form, only to discover errors at the end and have to start over. Frustrating, right? To avoid this, we need to make forms user-friendly, ensuring a smooth and error-free experience.
+> - Imagine filling out a form, only to discover errors at the end and have to start over. Frustrating, right? To avoid this, we need to make forms user-friendly,
+> - ensuring a smooth and error-free experience.
 
 ##### Real-time feedback
-Instead of waiting until the end to check for errors, let's provide real-time feedback as users type. This way, they can correct mistakes immediately, preventing them from later frustration.
+> - Instead of waiting until the end to check for errors, let's provide real-time feedback as users type. This way, they can correct mistakes immediately, preventing > - them from later frustration.
 
 ##### Clear error messages
-When errors occur, don't just say "Invalid input." Explain clearly what's wrong and provide instructions for correction. Avoid technical jargon and use simple language.
+> - When errors occur, don't just say "Invalid input." Explain clearly what's wrong and provide instructions for correction. Avoid technical jargon and use simple > - language.
 
 ##### Visual cues
-Use color changes, borders, or icons to highlight error fields. This makes it easier for users to spot mistakes without scanning the entire form.
+> - Use color changes, borders, or icons to highlight error fields. This makes it easier for users to spot mistakes without scanning the entire form.
 
 ##### Preventing errors
-Before errors happen, let's take steps to prevent them. Use input masking for specific formats, restrict data types, and auto-fill certain fields to reduce the chance of errors.
+> - Before errors happen, let's take steps to prevent them. Use input masking for specific formats, restrict data types, and auto-fill certain fields to reduce the
+> - chance of errors.
 
 ##### Submission confirmation
-Once the form is filled correctly and submitted, provide a clear confirmation message. This lets users know their data has been sent successfully.
+> - Once the form is filled correctly and submitted, provide a clear confirmation message. This lets users know their data has been sent successfully.
 
 ##### User testing
-Finally, don't assume everything is perfect. Ask real users to test the form and provide feedback. This helps identify areas for improvement and make the form even better.
+> - Finally, don't assume everything is perfect. Ask real users to test the form and provide feedback. This helps identify areas for improvement and make the form > - even better.
 
 
 ```
