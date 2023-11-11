@@ -273,15 +273,6 @@ JavaScript
 
 
 ```
-External API Integration: You need to integrate a third-party REST API into your application. Explain the steps you'd take to fetch and display data from this API.
-
-Forms and Validation: You have a form with various input fields. How would you handle form validation and submission in a way that provides a good user experience?
-
-Redux Middleware: Describe a scenario where you would use middleware in Redux. Provide an example of creating custom middleware and explain its purpose.
-
-Component Reusability: Provide a scenario where you've reused components across different projects. How would you ensure their reusability and maintainability?
-
-React Router: How would you handle nested routes and route parameters using React Router? Give an example scenario where you'd need these features.
 
 Authentication and Routing: Explain how you'd protect specific routes in your application from unauthorized access after a user logs in.
 
