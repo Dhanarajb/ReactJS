@@ -327,22 +327,3 @@ Replicating Lifecycle Methods with Hooks
 > - By using hooks, functional components can now have the same functionality as class components, including lifecycle methods.
 
 ---
-```
-
-Authentication and Routing: Explain how you'd protect specific routes in your application from unauthorized access after a user logs in.
-
-Performance Profiling: You notice a performance issue in your React app. What tools and techniques would you use to identify and fix the problem?
-
-Responsive Design: You're building a responsive web application. Describe how you'd approach making the user interface responsive for various screen sizes and devices.
-
-Cross-Origin Requests: Describe a scenario where you need to handle cross-origin requests in your React application. How would you deal with CORS and security concerns?
-
-PWA Implementation: Discuss the steps and features you would add to turn a React app into a Progressive Web App (PWA). Provide a scenario where PWA functionality is beneficial.
-
-Testing Strategy: Explain your approach to testing a React application, including unit tests, integration tests, and end-to-end tests. Provide a scenario where each type of test is useful.
-
-Component Lifecycle Methods: Explain the purpose of various component lifecycle methods in class components and how you replicate their behavior in functional components with hooks.
-
-API Versioning: You're consuming a versioned API in your application. Describe how you would handle changes and updates to the API version over time without disrupting the application.
-
-```
