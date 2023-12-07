@@ -1,4 +1,4 @@
-> How do you implement controlled and uncontrolled forms in a React application?
+How do you implement controlled and uncontrolled forms in a React application?
 👉 What is the difference between “static” and “instance” methods in the context of React?
 👉 What is the difference between a “portal” and an “error boundary” in the context of React?
 👉 How do you implement animations using the “React Transition Group” library?
