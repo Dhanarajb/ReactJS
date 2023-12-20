@@ -1,0 +1,1 @@
+In React, event handling involves capturing and responding to user interactions such as clicks, key presses, form submissions, etc. Event handling in React is similar to handling events in regular JavaScript, but there are some differences due to React's synthetic event system.
