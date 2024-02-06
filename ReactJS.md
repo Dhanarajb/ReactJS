@@ -1,3 +1,4 @@
+
 ## Day-1
 
 [Introduction to React](https://www.notion.so/Introduction-to-React-23058e32e5a2479bb354a5e6363ec1df?pvs=21)
@@ -105,7 +106,7 @@
 
 ## Day 14
 
-@Aditya Kumar you may add your notes for D-14,15,16 here
+you may add your notes for D-14,15,16 here
 
 ## Topics
 
